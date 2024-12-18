@@ -1,0 +1,29 @@
+# IDE Specific Files
+.idea
+
+# Frontend Build Artifacts
+frontend/dist
+frontend/node_modules
+
+# Python Bytecode and Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+.env/
+
+# OS generated files
+.DS_Store
+
+# Python log files
+*.log
+
+# Editor backup files
+*.swp
+*~
