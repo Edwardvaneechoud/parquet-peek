@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "parquet-peek-vue"
+version = "0.1.0"
+description = "Simple Parquet file viewer backend for Vue demo"
+authors = ["Edward van Eechoud <evaneechoud@gmail.com>"]
+readme = "README.md"
+
+packages = [
+    { include = "parquet_peek_vue" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.6"
+uvicorn = "^0.34.0"
+polars = "^1.17.1"
+pydantic = "^2.10.3"
+
+[tool.poetry.scripts]
+backend = "parquet_peek_vue.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
